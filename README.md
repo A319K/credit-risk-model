@@ -6,6 +6,9 @@ An end-to-end machine learning application that predicts loan default probabilit
 ![React](https://img.shields.io/badge/react-19.1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
+<img width="1506" height="757" alt="Screenshot 2025-10-06 at 2 51 42 AM" src="https://github.com/user-attachments/assets/d9f4134e-87ae-4752-9a56-562983a969e5" />
+
 ## Overview
 
 This system analyzes loan applicant data to predict the likelihood of default, providing both a risk score and transparent explanations of which factors influence the prediction. Built for financial institutions or lenders who need interpretable AI-driven credit risk assessments.
