@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: system-ui, -apple-system, sans-serif;
+
+    /* Custom animations */
+    --animate-fade-in: fade-in 1s ease-in-out;
+    --animate-slide-up: slide-up 0.7s ease-out forwards;
+    --animate-slide-up-delay: slide-up 0.7s ease-out 0.2s forwards;
+    --animate-float: float 20s ease-in-out infinite;
+    --animate-float-delay-1: float 25s ease-in-out infinite 2s;
+    --animate-float-delay-2: float 30s ease-in-out infinite 4s;
+    --animate-float-delay-3: float 22s ease-in-out infinite 6s;
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-up {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translate(0, 0) scale(1);
+        }
+        33% {
+            transform: translate(30px, -30px) scale(1.05);
+        }
+        66% {
+            transform: translate(-20px, 30px) scale(0.95);
+        }
+    }
+}
